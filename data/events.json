@@ -1,0 +1,16 @@
+{
+  "events": [
+      {
+        "id": 1,
+        "image": "/img/events/House-Party.png",
+        "alt": "Cover Image",
+        "title": "House Party",
+        "category": "Open Mic",
+        "date": "01/01/2018",
+        "time": "10:00 AM",
+        "location": "Online",
+        "details": "lispsums",
+        "slug": "house-party"
+      }
+    ]
+}

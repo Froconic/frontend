@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/Comfortaa/static/Comfortaa-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  src: url('~/assets/fonts/Righteous/Righteous-Regular.ttf') format('truetype');
+}
+
+/* Add font style rules */

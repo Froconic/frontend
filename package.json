@@ -1,0 +1,34 @@
+{
+    "name": "BLANCanvas",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+    },
+    "dependencies": {
+        "@nuxt/content": "^2.0.1",
+        "@nuxtjs/style-resources": "^1.2.1",
+        "bootstrap": "^4.6.1",
+        "bootstrap-vue": "^2.21.2",
+        "mixitup": "^3.3.1",
+        "nuxt": "^2.15.8",
+        "swiper": "^5.4.5",
+        "vue": "^2.6.14",
+        "vue-awesome-swiper": "^4.1.1",
+        "vue-fixed-header": "^3.2.15",
+        "vue-masonry": "^0.13.0",
+        "vue-masonry-css": "^1.0.3",
+        "vue-silentbox": "^2.4.5",
+        "vue2-google-maps": "^0.10.7",
+        "vuejs-paginate": "^2.1.0"
+    },
+    "devDependencies": {
+        "sass": "^1.43.4",
+        "sass-loader": "^10.1.1",
+        "webpack": "^4.46.0"
+    }
+}

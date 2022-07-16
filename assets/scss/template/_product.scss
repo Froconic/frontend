@@ -1,0 +1,174 @@
+/*==========================
+    Product Area 
+============================*/
+.product {
+    .product-thumbnail {
+        margin-bottom: 28px;
+
+        .thumbnail {
+            position: relative;
+
+            .product-main-image {
+                transition: all .3s cubic-bezier(.645, .045, .355, 1);
+
+                img {
+                    width: 100%;
+                    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+                }
+            }
+        }
+    }
+
+    .product-info {
+        text-align: center;
+
+        h5 {
+            &.heading {
+                margin-bottom: 10px;
+
+                a {
+                    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+                    color: $heading-color;
+                }
+            }
+        }
+
+        .price {
+            font-size: 18px;
+            font-weight: 600;
+
+            span {
+                display: inline-block;
+                color: #333333;
+                font-family: $body-font;
+
+                &.new-price {
+                    color: #d5382c;
+                }
+            }
+        }
+    }
+
+    &:hover {
+        .product-thumbnail {
+            .thumbnail {
+                .product-main-image {
+                    img {
+                        box-shadow: 0 10px 20px rgba(0, 0, 0, .07);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.restaurant-product-tab {
+    &.product-tab-two {
+        .card-header-pills {
+            width: 100%;
+            padding: 0 0 0 1px;
+            text-align: center;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            justify-content: center;
+            li {
+                .nav-link {
+                    font-size: 12px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    letter-spacing: 1.38px;
+                    padding: 14px 20px;
+                    color: #a6a6a6;
+                    // Responsive
+                    @media #{$sm-layout}{
+                        padding: 10px 10px; 
+                    }
+                    &.active {
+                        color: $black;
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// Product Style Two
+.product-style-two{
+    text-align: center;
+    .product-thumbnail{
+        .thumbnail{
+            margin-bottom: 30px;
+        }
+    }
+    .product-info{
+        text-align: center;
+        h5{
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 9px;
+        }
+        .tag{
+            font-size: 14px;
+            font-style: italic;
+            margin-bottom: 19px;
+            display: block;
+        }
+        .price{
+            font-size: 15px;
+        }
+    }
+}
+
+// Food menu CSS
+.food-menu-wrap{
+    margin-top: 63px;
+    padding-top: 52px;
+    padding-right: 27px;
+    padding-bottom: 66px;
+    padding-left: 27px; 
+    background-color: #faf7f4;
+}
+.content-top{
+    margin-top: -177px !important;
+    margin-bottom: 70px !important;
+    padding-top: 52px !important;
+    padding-right: 27px !important;
+    padding-bottom: 66px !important;
+    padding-left: 27px !important;
+}
+.menu-list{
+    padding-left: 0px !important;
+    .menu-item{
+        list-style: none;
+        .menu-header{
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            .menu-title{
+                position: relative;
+                z-index: 1;
+                font-size: 18px;
+                font-weight: 500;
+                margin-bottom: 0;
+            }
+            .menu-separator{
+                height: 1px;
+                background: hsla(0,0%,7%,.08);
+                flex-grow: 1;
+                margin: 0 20px;
+            }
+            .menu-price{
+                font-size: 14px;
+            }
+        }
+        .menu-text{
+            font-style: italic;
+            font-size: 14px;
+        }
+    }
+    li + li{
+        margin-top: 35px;
+    }
+}
